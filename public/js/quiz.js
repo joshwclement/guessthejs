@@ -101,11 +101,75 @@ let app = {
       js: true,
     },
     {
+      name: 'cappuccino',
+      js: true,
+    },
+    {
+      name: 'fireball',
+      js: true,
+    },
+    {
+      name: 'zoo',
+      js: true,
+    },
+    {
+      name: 'dragon',
+      js: true,
+    },
+    {
+      name: 'livewire',
+      js: true,
+    },
+    {
+      name: 'tart',
+      js: true,
+    },
+    {
+      name: 'biscuit',
+      js: true,
+    },
+    {
+      name: 'biscuit',
+      js: true,
+    },
+    {
       name: 'ender',
       js: true,
     },
     {
+      name: 'spelling',
+      js: false,
+    },
+    {
+      name: 'patrol',
+      js: true,
+    },
+    {
+      name: 'textures',
+      js: true,
+    },
+    {
+      name: 'husband',
+      js: false,
+    },
+    {
+      name: 'husband',
+      js: false,
+    },
+    {
+      name: 'cooper',
+      js: false,
+    },
+    {
+      name: 'breakout',
+      js: true,
+    },
+    {
       name: 'yarn',
+      js: true,
+    },
+    {
+      name: 'rye',
       js: true,
     },
   ],
