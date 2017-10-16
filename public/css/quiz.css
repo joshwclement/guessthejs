@@ -1,0 +1,15 @@
+.info {
+  margin: 2em;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4em;
+}
+.options a {
+  color: #111;
+}
+
+/*# sourceMappingURL=quiz.css.map */
