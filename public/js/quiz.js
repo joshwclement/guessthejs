@@ -190,7 +190,6 @@ let setupClicks = () => {
     let profile = app.profiles[ app.profileToShow ];
     app.answered = true;
 
-    // determines correct answer - based on profile
     if (profile.js) {
       app.correctlyAnswered = true;
     }
@@ -216,15 +215,12 @@ let setupClicks = () => {
   })
 
   next.addEventListener('click', (e) => {
-    // move on to the next person
     app.profileToShow = Math.floor(Math.random() * app.profiles.length);
-    // reset answer state
     app.answered = false;
     refreshAppUI();
   })
 }
 
-// sequence of events to move on to next question
 let refreshAppUI = () => {
   let profileToShow = app.profileToShow;
   let profile = app.profiles[ profileToShow ];

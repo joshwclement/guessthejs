@@ -1,34 +1,26 @@
 <html>
 <head>
-	<link rel="stylesheet" href="public/css/quiz.css"/>
 	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.8.1/css/tachyons.min.css"/>
-
 </head>
 
 	<body class="sans-serif bg-light-yellow near-black">
 
-		<div class="info mb5">
-			<h3 class="f4 lh-title">Guess the .js</h1>
-			<p class="f5 measure-narrow">How well do you know the wonderful world of Javascript? Play the quiz and find out.</p>
+		<div class="ma4 mb6">
+			<h3 class="f1 f2-l lh-title">Guess the .js</h1>
+			<p class="f2 f4-l measure">How well do you know the wonderful world of Javascript? Play the quiz and find out.</p>
 		</div>
 
+    <section class="center tc">
+			<div id="name" class="f-headline lh-title b red"></div>
+			<p id="message" class="f2 b"></p>
 
-    <section class="mw6-ns center ph5-ns tc">
-				<div class="f-subheadline lh-title b red" id="name"></div>
-
-			<div class="btn-area">
-
-					<div class="options">
-						<p id="message" class="f4 measure mr4 b"></p>
-						<a class="f5 br-pill no-underline ba grow pv2 ph3 dib mr3" id="thing" href="#">a thing</a>
-						<a class="f5 br-pill no-underline ba grow pv2 ph3 dib mr3" id="fake" href="#">not a thing</a>
-						<a class="f5 br-pill no-underline ba grow pv2 ph3 dib" id="next"  href="#">Next</a>
-					</div>
+			<div class="center ma2 w-50">
+				<a id="thing" class="f2 br-pill near-black no-underline ba grow pa3 mb5 mb3-l"  href="#">a thing</a>
+				<a id="fake" class="f2 br-pill near-black no-underline ba grow pa3 mb5 mb3-l" href="#">not a thing</a>
+				<a id="next" class="f2 br-pill near-black no-underline ba grow pa3 mb5 mb3-l" href="#">Next</a>
 			</div>
 		</section>
 
-
 		<script src="public/js/quiz.js"></script>
 	</body>
-
 </html>
