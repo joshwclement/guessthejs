@@ -13,6 +13,10 @@ let app = {
       js: true,
     },
     {
+      name: 'swank',
+      js: true,
+    },
+    {
       name: 'vue',
       js: true,
     },
@@ -145,27 +149,35 @@ let app = {
       js: true,
     },
     {
+      name: 'laneway',
+      js: false,
+    },
+    {
       name: 'textures',
       js: true,
     },
     {
-      name: 'husband',
-      js: false,
-    },
-    {
-      name: 'husband',
-      js: false,
-    },
-    {
-      name: 'cooper',
-      js: false,
-    },
-    {
-      name: 'breakout',
+      name: 'flamingo',
       js: true,
     },
     {
-      name: 'yarn',
+      name: 'husband',
+      js: false,
+    },
+    {
+      name: 'husband',
+      js: false,
+    },
+    {
+      name: 'gator',
+      js: true,
+    },
+    {
+      name: 'lagoon',
+      js: true,
+    },
+    {
+      name: 'breakout',
       js: true,
     },
     {
