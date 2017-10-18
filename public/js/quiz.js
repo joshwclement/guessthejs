@@ -1,11 +1,15 @@
 let app = {
   profiles: [
     {
-      name: 'Gatsby',
+      name: 'gatsby',
       js: true,
     },
     {
-      name: 'Node',
+      name: 'node',
+      js: true,
+    },
+    {
+      name: 'grade',
       js: true,
     },
     {
